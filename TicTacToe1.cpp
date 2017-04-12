@@ -73,7 +73,7 @@ void moveX()
 {
 opet:
 	cin >> input;
-	if(isalpha(board[input])) goto opet; //Prevents cheating??
+	if(isalpha(board[input])) goto opet; //Prevents cheating?? 
 	board[input] = 'X';
 }
 
